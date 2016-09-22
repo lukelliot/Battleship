@@ -49,7 +49,7 @@ class Computer
 
 
   def random_series(length)
-
+    start_of_length = rand(0..10-length)
     axis_coordinates = []
     length.times { |i| axis_coordinates << start_of_length + i }
     axis_coordinates
