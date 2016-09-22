@@ -161,3 +161,7 @@ class Battleship
     Battleship.new
   end
 end
+
+if __FILE__ == $0
+  Battleship.new.play
+end
